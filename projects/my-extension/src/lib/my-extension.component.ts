@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'lib-my-extension',
   template: `
     <p>
-      my-extension works!
+      my-extension works! And changes too!
     </p>
   `,
   styles: []
