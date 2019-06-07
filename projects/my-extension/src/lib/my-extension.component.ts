@@ -52,7 +52,7 @@ export class MyExtensionComponent implements OnInit {
 
 
     getSessionKey(callback){
-        this.callAPIMethod(callback,'get_session_key',['ETBoye','XXXXX'])
+        this.callAPIMethod(callback,'get_session_key',['ETBoye','5cE4yyeSS0dhOX4Z'])
     }
 
 
