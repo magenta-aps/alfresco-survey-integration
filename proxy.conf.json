@@ -1,0 +1,8 @@
+{
+  "/remotecontrol/*": {
+    "target": "https://testytest.limequery.com/admin/",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+}

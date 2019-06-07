@@ -3,14 +3,17 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import {MyExtensionComponent} from '../../projects/my-extension/src/lib/my-extension.component';
+import { HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
     AppComponent,
-    MyExtensionComponent
+    MyExtensionComponent,
+
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

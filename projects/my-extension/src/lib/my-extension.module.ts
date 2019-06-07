@@ -4,13 +4,15 @@ import { ExtensionService, ExtensionsModule } from '@alfresco/adf-extensions';
 import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MyExtensionComponent } from './my-extension.component';
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   imports: [
     ExtensionsModule,
     FlexLayoutModule,
     CoreModule.forChild(),
-    ContentModule.forChild()
+    ContentModule.forChild(),
+    HttpClientModule,
   ],
   declarations: [MyExtensionComponent],
   exports: [MyExtensionComponent],
